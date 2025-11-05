@@ -166,16 +166,6 @@ int spi_write_pio(uint32_t data) {
 }
 
 
-
-
-int led_init() {
-    gpio_init(PICO_DEFAULT_LED_PIN);
-    gpio_set_dir(PICO_DEFAULT_LED_PIN, GPIO_OUT);
-	return 0;
-}
-
-
-
 // 500 kHz (2us per bit)
 #define SPI_FREQ 500000  
 int main() {
