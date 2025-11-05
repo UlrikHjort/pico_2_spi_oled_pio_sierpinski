@@ -1,3 +1,7 @@
+;          PICO2 RISC-V Sierpinski OLED SPI pio statemachine
+; 
+;           Copyright (C) 2025 By Ulrik Hørlyk Hjort
+
 .program spi_tx
 .side_set 1 opt          ; side-set for clock pin (optional to allow delay)
 
