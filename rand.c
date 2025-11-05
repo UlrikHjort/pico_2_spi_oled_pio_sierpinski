@@ -1,5 +1,5 @@
 /**************************************************************************
---          PICO2 RISC-V Sierpinski OLED SPI Bitbang
+--          PICO2 RISC-V Sierpinski OLED SPI pio statemachine
 -- 
 --           Copyright (C) 2025 By Ulrik Hørlyk Hjort
 --
